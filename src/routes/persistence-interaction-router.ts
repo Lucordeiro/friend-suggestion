@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
-import { cleanData } from './../controllers/clean-data-controller';
+import { cleanDataController } from './../modules';
 
 const persistenceInteractionRouter = Router();
 
-persistenceInteractionRouter.delete('clean', () => {});
+persistenceInteractionRouter.delete('', (request, response) => {cleanDataController.handle(request, response)});
 
 export { persistenceInteractionRouter }

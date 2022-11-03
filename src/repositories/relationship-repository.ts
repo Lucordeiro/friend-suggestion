@@ -1,7 +1,9 @@
 import { Relationship } from './../entities/relationship';
 
 export interface RelationshipRepository{
-    create(relationship:Relationship): Promise<void>
-    hasOverlapping(relationship:Relationship):Promise<any>
-    getByPerson(cpf:string):Promise<any>
+    create(relationship:Relationship): Promise<void>;
+    hasOverlapping(relationship:Relationship):Promise<any>;
+    getByPerson(cpf:string):Promise<any>;
+    clean():Promise<void>;
+
 }

@@ -44,4 +44,7 @@ export class InMemoryPersonPersistence implements PersonRepository{
     async getByDocument(cpf: string): Promise<any> {
         return this.items.find( (item) => item.cpf === cpf);
     }
+    async clean(): Promise<void> {
+        this.items = [];
+    }
 }

@@ -70,4 +70,7 @@ export class InMemoryRelationshipPersistence implements RelationshipRepository{
         });
         return relationships
     }
+    async clean(): Promise<void> {
+        this.items = [];
+    }
 }
