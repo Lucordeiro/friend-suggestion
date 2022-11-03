@@ -1,4 +1,4 @@
-Recomendador de amigos :fa-user-plus:
+Recomendador de amigos
 =============
 
 ## Descrição
