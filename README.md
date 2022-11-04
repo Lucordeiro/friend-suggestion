@@ -15,8 +15,9 @@ amigos se baseando nas amizades já existentes.
 
 ### Tecnologias utilizadas e metodologia de desenvimento
 O projeto consiste em uma API REST feita com express e typescript, utilizado JEST para implementação de testes.
-Em relação a metodologia o objetivo foi construir algo orientado a objetos, inversão e injeção de dependencias para uma boa desacoplagem entre os componentes, facilitar manutenção, testes etc..
-###Inicialização
+Em relação a metodologia o objetivo foi construir algo orientado a objetos, com inversão e injeção de dependencias para uma boa desacoplagem entre os componentes, facilitar manutenção, testes etc..
+
+### Inicialização
 
 #### Instalação de dependencias
 
@@ -32,7 +33,7 @@ Em relação a metodologia o objetivo foi construir algo orientado a objetos, in
 `$ npm run test`
 
 ### Melhorias
-Preciso revisar alguns detalhes, talvez uma cobetura de testes maior e mais cases nos existentes. Melhoria no tratamento de erros e respostas também, mas a inteção é melhorar assim que possível.
+Preciso revisar alguns detalhes, talvez uma cobetura de testes maior e mais cases nos existentes. Melhoria no tratamento de erros e respostas também, mas a intenção é melhorar assim que possível.
 ## Contato
 
 - Autor - Lucas Cordeiro
